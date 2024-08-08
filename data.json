@@ -26,35 +26,35 @@
       "common_name": "Shrubby tororaro",
       "description": "A dense, wiry shrub with small leaves and an intricate, tangled growth habit.",
       "benefits": "Drought-resistant, low maintenance, and good for erosion control.",
-      "image_source": "./public/image/Muehlenbeckia astonii.png"
+      "image_source": "./public/image/Muehlenbeckia-astonii.png"
     },
     {
       "name": "Griselinia littoralis",
       "common_name": "Broadleaf",
       "description": "A versatile evergreen shrub that can be used as hedging or standalone planting.",
       "benefits": "Tolerates a range of soil types, wind-resistant, and requires minimal pruning.",
-      "image_source": "./public/image/Griselinia littoralis.png"
+      "image_source": "./public/image/Griselinia-littoralis.png"
     },
     {
       "name": "Astelia banksii",
       "common_name": "Coastal Astelia",
       "description": "A silver-leaved perennial that adds texture and color to plantings.",
       "benefits": "Prefers well-drained soil, drought-tolerant, and low maintenance.",
-      "image_source": "./public/image/Astelia banksii.png"
+      "image_source": "./public/image/Astelia-banksii.png"
     },
     {
       "name": "Pittosporum tenuifolium",
       "common_name": "Kohuhu",
       "description": "A fast-growing, evergreen tree or shrub with small, wavy-edged leaves.",
       "benefits": "Tolerates coastal conditions and wind, low maintenance, and can be used for hedging or shelter.",
-      "image_source": "./public/image/Pittosporum tenuifolium.png"
+      "image_source": "./public/image/Pittosporum-tenuifolium.png"
     },
     {
       "name": "Carex secta",
       "common_name": "Pūkio",
       "description": "A large, native sedge with drooping, green foliage.",
       "benefits": "Ideal for damp areas, low maintenance, and provides excellent ground cover.",
-      "image_source": "./public/image/Carex secta.png"
+      "image_source": "./public/image/Carex-secta.png"
     }
   ],
   "planting_and_maintenance_tips": {

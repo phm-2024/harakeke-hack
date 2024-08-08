@@ -4,49 +4,57 @@
       "name": "Pōhutukawa",
       "scientific_name": "Metrosideros excelsa",
       "description": "Known as the New Zealand Christmas tree, it is well-suited for coastal conditions and urban environments.",
-      "benefits": "Drought-tolerant, minimal maintenance once established, and provides vibrant red flowers in summer."
+      "benefits": "Drought-tolerant, minimal maintenance once established, and provides vibrant red flowers in summer.",
+      "image_source": "./public/image/Pōhutukawa.png"
     },
     {
       "name": "Kōwhai",
       "scientific_name": "Sophora spp.",
       "description": "A small to medium-sized tree known for its striking yellow flowers.",
-      "benefits": "Tolerates dry conditions, attracts native birds like tui and bellbird."
+      "benefits": "Tolerates dry conditions, attracts native birds like tui and bellbird.",
+      "image_source": "./public/image/Kōwhai.png"
     },
     {
       "name": "Harakeke",
       "scientific_name": "Phormium tenax",
       "description": "A robust, clump-forming flax with long, sword-like leaves.",
-      "benefits": "Extremely hardy, tolerates poor soil, coastal conditions, and requires minimal care."
+      "benefits": "Extremely hardy, tolerates poor soil, coastal conditions, and requires minimal care.",
+      "image_source": "./public/image/Harakeke.png"
     },
     {
       "name": "Muehlenbeckia astonii",
       "common_name": "Shrubby tororaro",
       "description": "A dense, wiry shrub with small leaves and an intricate, tangled growth habit.",
-      "benefits": "Drought-resistant, low maintenance, and good for erosion control."
+      "benefits": "Drought-resistant, low maintenance, and good for erosion control.",
+      "image_source": "./public/image/Muehlenbeckia astonii.png"
     },
     {
       "name": "Griselinia littoralis",
       "common_name": "Broadleaf",
       "description": "A versatile evergreen shrub that can be used as hedging or standalone planting.",
-      "benefits": "Tolerates a range of soil types, wind-resistant, and requires minimal pruning."
+      "benefits": "Tolerates a range of soil types, wind-resistant, and requires minimal pruning.",
+      "image_source": "./public/image/Griselinia littoralis.png"
     },
     {
       "name": "Astelia banksii",
       "common_name": "Coastal Astelia",
       "description": "A silver-leaved perennial that adds texture and color to plantings.",
-      "benefits": "Prefers well-drained soil, drought-tolerant, and low maintenance."
+      "benefits": "Prefers well-drained soil, drought-tolerant, and low maintenance.",
+      "image_source": "./public/image/Astelia banksii.png"
     },
     {
       "name": "Pittosporum tenuifolium",
       "common_name": "Kohuhu",
       "description": "A fast-growing, evergreen tree or shrub with small, wavy-edged leaves.",
-      "benefits": "Tolerates coastal conditions and wind, low maintenance, and can be used for hedging or shelter."
+      "benefits": "Tolerates coastal conditions and wind, low maintenance, and can be used for hedging or shelter.",
+      "image_source": "./public/image/Pittosporum tenuifolium.png"
     },
     {
       "name": "Carex secta",
       "common_name": "Pūkio",
       "description": "A large, native sedge with drooping, green foliage.",
-      "benefits": "Ideal for damp areas, low maintenance, and provides excellent ground cover."
+      "benefits": "Ideal for damp areas, low maintenance, and provides excellent ground cover.",
+      "image_source": "./public/image/Carex secta.png"
     }
   ],
   "planting_and_maintenance_tips": {

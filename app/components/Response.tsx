@@ -25,7 +25,8 @@ export default async function Response({ location }: Location) {
         {plants.map((plant, index) => (
           <div key={index}>
             <h2>
-              {plant.name} ({plant.scientific_name})
+              {plant.name}{' '}
+              {plant.scientific_name && `(${plant.scientific_name})`}
             </h2>
             <p>{plant.description}</p>
             <p>

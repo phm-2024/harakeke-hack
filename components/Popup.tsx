@@ -16,7 +16,7 @@ export default function Popup({ setResponse }: Props) {
   return (
     <section className="popup-overlay">
       <div className="popup">
-        <h1>Suggestions</h1>
+        <h1 className="text-2xl">Suggestions</h1>
         <button onClick={close} className="close">
           x
         </button>
@@ -24,16 +24,20 @@ export default function Popup({ setResponse }: Props) {
           {solutions.map((solution, i) => (
             <div
               key={i}
-              className="border border-2px border-emerald-500 m-5 w-96 h-[30em] bg-white"
+              className="flex flex-col justify-center border border-2px border-emerald-500 m-5 w-96 h-[30em] bg-white"
             >
-              <h2>{solution.name}</h2>
+              <h2 className="text-xl">{solution.name}</h2>
               <h3>
-                <em>{solution.scientific_name}</em>
+                <em className="text-l">{solution.scientific_name}</em>
               </h3>
               <p>{solution.description}</p>
-              <h3>Benefits:</h3>
+              <h3 className="text-l">Benefits:</h3>
               <p>{solution.benefits}</p>
-              <img src={solution.image_source} alt={solution.name} />
+              <img
+                src={solution.image_source}
+                alt={solution.name}
+                className="max-h-[16em] w-auto"
+              />
             </div>
           ))}
         </div>

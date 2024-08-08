@@ -1,7 +1,8 @@
-import Image from 'next/image'
+// TODO: prop drill location input to Response component
 import Response from './components/Response'
 
 export default function Home() {
+  let location = 'Auckland'
   return (
     <main className="flex min-h-screen flex-row items-center justify-around p-24">
       <form className="flex flex-col">
@@ -29,7 +30,7 @@ export default function Home() {
         <p>+</p>
       </div>
 
-      <Response />
+      <Response location={location} />
     </main>
   )
 }

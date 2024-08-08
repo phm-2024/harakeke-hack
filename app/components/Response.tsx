@@ -10,10 +10,14 @@ interface Plant {
   image_source: string
 }
 
-export default async function Response() {
+interface Location {
+  location: string
+}
+
+export default async function Response({ location }: Location) {
   const fileContent = await fs.readFile(process.cwd() + '/data.json', 'utf8')
   const data = JSON.parse(fileContent)
-  const plants: Plant[] = data.native_plants
+  const plants: Plant[] = data.native_plants[location] || []
 
   return (
     <>

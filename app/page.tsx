@@ -61,6 +61,8 @@ export default function Home() {
             id="requirements"
           />
         </div>
+
+        {/* <Response location={location} /> */}
       </main>
     </>
   )

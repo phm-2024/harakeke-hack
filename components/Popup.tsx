@@ -10,8 +10,8 @@ export default function Popup({ setResponse }: Props) {
     setResponse(false)
   }
 
-  const solutions = data.native_plants
-  console.log(data.native_plants)
+  const solutions = data.native_plants.Auckland
+  console.log(data.native_plants.Auckland)
 
   return (
     <section className="popup-overlay">

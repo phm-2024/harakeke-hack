@@ -13,10 +13,6 @@ body {
   width: 70%;
 }
 
-h1 {
-  font-size: 30px;
-}
-
 .popup-overlay {
   position: absolute;
   top: 0;

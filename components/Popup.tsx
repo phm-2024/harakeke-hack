@@ -16,7 +16,9 @@ export default function Popup({ setResponse }: Props) {
   return (
     <section className="popup-overlay">
       <div className="popup">
-        <h1 className="text-2xl">Suggestions</h1>
+        <h1>
+          <strong className="text-2xl">Suggestions</strong>
+        </h1>
         <button onClick={close} className="close">
           x
         </button>
@@ -31,7 +33,9 @@ export default function Popup({ setResponse }: Props) {
                 <em className="text-l">{solution.scientific_name}</em>
               </h3>
               <p>{solution.description}</p>
-              <h3 className="text-l">Benefits:</h3>
+              <h3>
+                <strong className="text-l">Benefits:</strong>
+              </h3>
               <p>{solution.benefits}</p>
               <img
                 src={solution.image_source}

@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Response from './components/Response'
 
 export default function Home() {
   return (
@@ -27,6 +28,8 @@ export default function Home() {
       <div className="flex flex-col justify-center border border-2px border-black bg-slate-300 h-96 w-96 text-center text-2xl">
         <p>+</p>
       </div>
+
+      <Response />
     </main>
   )
 }

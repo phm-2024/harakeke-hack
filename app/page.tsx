@@ -6,7 +6,8 @@ import { useState } from 'react'
 export default function Home() {
   const [response, setResponse] = useState(false)
 
-  function handleSubmti() {
+  function handleSubmti(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault()
     setResponse(true)
   }
 
@@ -41,13 +42,15 @@ export default function Home() {
             className="mb-2 border border-2px border-green"
             // placeholder="Access to plant"
           />
-          <button
-            type="submit"
-            className="button-3"
-            // onClick={() => setResponse(true)}
-          >
-            Submit
-          </button>
+          {!response && (
+            <button
+              type="submit"
+              className="button-3"
+              // onClick={() => setResponse(true)}
+            >
+              Submit
+            </button>
+          )}
         </form>
         <div className="flex flex-col justify-center border border-2px border-black h-96 w-96 text-center text-2xl">
           <label htmlFor="requirements">Upload project requirements</label>
